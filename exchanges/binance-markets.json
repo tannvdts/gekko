@@ -116,7 +116,8 @@
     "XZC",
     "YOYO",
     "ZEC",
-    "ZIL"
+    "ZIL",
+    "BCN"
   ],
   "currencies": [
     "BNB",
@@ -125,6 +126,16 @@
     "USDT"
   ],
   "markets": [
+    { 
+      "pair": [
+      "BTC",
+      "BCN"
+    ], 
+    "minimalOrder": { 
+      "amount": 0.0001, 
+      "unit": "asset" 
+    } 
+    },
     {
       "pair": [
         "BNB",
